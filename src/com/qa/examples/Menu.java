@@ -21,11 +21,10 @@ public class Menu {
 		running = true;
 		results = new ArrayList<String>();
 		this.welcome();
-		run();
 	}
 
 	// MAIN RUN METHOD
-	private void run() {
+	public void run() {
 		while (running) {
 			this.displayMainMenu();
 			int menuInput = this.getMenuInput();

@@ -72,12 +72,4 @@ public class Utilities {
 			e.printStackTrace();
 		}
 	}
-
-	public static void println(String s) {
-		System.out.println(s);
-	}
-
-	public static void println(int a) {
-		System.out.println(a);
-	}
 }
