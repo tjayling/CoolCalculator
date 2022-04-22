@@ -21,11 +21,10 @@ public class Menu {
 		running = true;
 		results = new ArrayList<String>();
 		this.welcome();
-		run();
 	}
 
 	// MAIN RUN METHOD
-	private void run() {
+	public void run() {
 		while (running) {
 			this.displayMainMenu();
 			int menuInput = this.getMenuInput();
@@ -148,6 +147,7 @@ public class Menu {
 			System.out.println("Thanks for using the Cool Calculator!");
 			Utilities.sleep(500);
 			System.out.println("Goodbye");
+			Utilities.closeScanner();
 			runningMenu2 = false;
 			running = false;
 			break;
