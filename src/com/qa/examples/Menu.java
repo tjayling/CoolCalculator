@@ -147,6 +147,7 @@ public class Menu {
 			System.out.println("Thanks for using the Cool Calculator!");
 			Utilities.sleep(500);
 			System.out.println("Goodbye");
+			Utilities.closeScanner();
 			runningMenu2 = false;
 			running = false;
 			break;
